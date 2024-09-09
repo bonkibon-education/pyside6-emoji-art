@@ -1,0 +1,113 @@
+/*──────────────────────────────────────────────────────────────────────────
+    [ All widgets ]
+──────────────────────────────────────────────────────────────────────────*/
+
+* {
+    font-family: "Consolas";
+}
+
+/*──────────────────────────────────────────────────────────────────────────
+    [ QMessageBox ]
+──────────────────────────────────────────────────────────────────────────*/
+
+QMessageBox {
+    color: white;
+    background-color: #1F1C26;
+}
+
+QMessageBox QLabel {
+    color: rgb(200, 200, 200);
+}
+
+/*──────────────────────────────────────────────────────────────────────────
+    [ QPushButton ]
+──────────────────────────────────────────────────────────────────────────*/
+
+QPushButton:hover { color: #50C878; }
+QPushButton:pressed { color: #40A060; }
+QPushButton:hover#button-exit { color: #c85050; }
+QPushButton:pressed#button-exit { color: #a04040; }
+
+
+QPushButton {
+    color: #FFF197;
+    font-size: 16px;
+    border-radius: 0px;
+    padding: 2px 12px 2px 12px;
+    background-color: transparent;
+}
+
+/*──────────────────────────────────────────────────────────────────────────
+    [ QLabel ]
+──────────────────────────────────────────────────────────────────────────*/
+
+QLabel#text { font-size: 16px; }
+QLabel#title { font-size: 28px; font-weight: 700; margin-bottom: 24px; }
+
+
+/*──────────────────────────────────────────────────────────────────────────
+    [ QMenu ]
+──────────────────────────────────────────────────────────────────────────*/
+
+QMenu {
+    background-color: #1F1C26;
+    border: 2px solid #2850FF;
+    border-radius: 4px;
+}
+
+QMenu::item {
+    color: #9C8DBF;
+}
+
+QMenu::item:selected {
+    background-color: #322E3D;
+}
+
+QMenu::item:selected:disabled { background-color: #1F1C26; }
+QMenu::item:disabled { color: #322E3D; }
+
+/*──────────────────────────────────────────────────────────────────────────
+    [ QScrollBar ]
+──────────────────────────────────────────────────────────────────────────*/
+
+/* QScrollBar */
+QScrollBar:horizontal, QScrollBar:vertical {
+    min-width: 16px;
+    min-height: 16px;
+    background-color: #282A36;
+}
+
+QScrollBar::handle:horizontal, QScrollBar::handle:vertical {
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 0px;
+    background-color: #454554;
+}
+
+QScrollBar::handle:horizontal:hover, QScrollBar::handle:vertical:hover {
+    background-color: #61AFEF;
+}
+
+/* QScrollBar / line */
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal,
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    border: none;
+    height: 0px;
+    width: 0px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+/* QScrollBar / page, arrow */
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal,
+QScrollBar::up-arrow:horizontal,
+QScrollBar::down-arrow:horizontal,
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical,
+QScrollBar::up-arrow:vertical,
+QScrollBar::down-arrow:vertical {
+    background: none; /* Hide arrow */
+}

@@ -1,0 +1,22 @@
+{
+  "ArtBoardMenu": {
+    "shortcut": "Right mouse click",
+    "description": "Click on the art board opens the menu"
+  },
+  "PasteEmoji": {
+    "shortcut": "Left mouse click",
+    "description": "Paste string to cell"
+  },
+  "AddCarouselItem": {
+    "shortcut": "Ctrl+N",
+    "description": "Add animation frame"
+  },
+  "ClearCurrentArtBoard": {
+    "shortcut": "Ctrl+D",
+    "description": "Clear all table cells in the main animation frame"
+  },
+  "SaveFrames": {
+    "shortcut": "Ctrl+S",
+    "description": "Save animation frames"
+  }
+}

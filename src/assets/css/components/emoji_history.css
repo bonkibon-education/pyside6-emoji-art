@@ -1,0 +1,27 @@
+/*──────────────────────────────────────────────────────────────────────────
+    [ Emoji entry ]
+──────────────────────────────────────────────────────────────────────────*/
+
+#label-entry-emoji-history {
+    font-size: 24px;
+}
+
+#label-entry-emoji-history:hover {
+    background-color: #61AFEF;
+}
+
+/*──────────────────────────────────────────────────────────────────────────
+    [ COMPONENT: emoji history ]
+──────────────────────────────────────────────────────────────────────────*/
+
+QWidget {
+    background-color: #1E1E1E;
+}
+
+#widget-emoji-history {
+
+}
+
+#frame-emoji-history {
+
+}

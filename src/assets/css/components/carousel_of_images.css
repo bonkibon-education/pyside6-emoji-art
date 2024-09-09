@@ -1,0 +1,47 @@
+/*──────────────────────────────────────────────────────────────────────────
+    [ COMPONENT: carousel of images ]
+──────────────────────────────────────────────────────────────────────────*/
+
+#scroll-area-carousel-of-images {
+    background-color: #1E1E1E;
+}
+
+#widget-carousel-of-images {
+    background-color: #1E1E1E;
+}
+
+/*──────────────────────────────────────────────────────────────────────────
+    [ COMPONENT: carousel items ]
+──────────────────────────────────────────────────────────────────────────*/
+
+/* QPushButton / Delete button */
+
+#button-carousel-item-delete  {
+    padding: 6px, 6px, 0px, 0px;
+    border: 2px solid transparent;
+    background-color: #550e0b;
+    border-radius: 4px;
+    color: #B3261E;
+    font-weight: 700;
+    font-size: 12px;
+    width: 100%;
+}
+
+#button-carousel-item-delete::hover {
+    background-color: #64130f;
+    border-color: #B3261E;
+}
+
+/* QLabel / Image */
+
+#label-carousel-item-image {
+    padding: 1px;
+    border: 2px solid #454554;
+    border-radius: 4px;
+}
+
+#label-carousel-item-image::hover {
+    padding: 1px;
+    border: 2px solid #61AFEF;
+    border-radius: 4px;
+}

@@ -1,0 +1,19 @@
+/*──────────────────────────────────────────────────────────────────────────
+    [ COMPONENT: shortucts ]
+──────────────────────────────────────────────────────────────────────────*/
+
+#frame-shortcuts {
+    background-color: #1B1B1C;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#pushbutton-shortcut {
+    font-size: 14px;
+    font-weight: 500;
+    color: #454554;
+}
+
+#pushbutton-shortcut::hover {
+    color: #50C878;
+}
