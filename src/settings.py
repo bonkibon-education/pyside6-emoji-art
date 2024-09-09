@@ -1,5 +1,3 @@
-from json import load, JSONDecodeError
-from random import choice
 from paths import path_read_file
 from PySide6.QtWidgets import QMessageBox
 
@@ -16,15 +14,6 @@ SETTINGS_MESSAGEBOX_ICON: dict = {
     '?': QMessageBox.Icon.Question,
     '!': QMessageBox.Icon.Warning,
 }
-
-SETTINGS_WELCOME_EMOJI: str = choice(
-    (
-        '😎', '🥰', '💗',
-        '😍', '🥰', '🤩',
-        '🤪', '😱', '😇',
-        '😈', '😼', '🐍'
-    )
-)
 
 
 SETTINGS_SHORTCUTS: dict = path_read_file('app-shortcuts.json')
